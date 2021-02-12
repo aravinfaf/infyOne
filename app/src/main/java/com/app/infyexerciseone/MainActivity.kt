@@ -69,6 +69,5 @@ class MainActivity : AppCompatActivity() {
                 )
         )
         recyclerView.adapter = countryAdapter
-        countryAdapter.notifyDataSetChanged()
     }
 }
